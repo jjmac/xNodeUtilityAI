@@ -17,6 +17,7 @@ MonoBehaviour:
   ports:
     keys:
     - LinkedOption
+    - Data
     values:
     - _fieldName: LinkedOption
       _node: {fileID: -8328577186847297002}
@@ -30,8 +31,20 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: -8328577186847297002}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   LinkedOption: {fileID: 0}
   Order: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
 --- !u!114 &-4279659965594252076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,10 +138,11 @@ MonoBehaviour:
   m_Name: Current Ammo Count Node
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -712, y: -600}
+  position: {x: -712, y: -616}
   ports:
     keys:
     - Value
+    - Data
     values:
     - _fieldName: Value
       _node: {fileID: -4130570032482084031}
@@ -142,6 +156,18 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: -4130570032482084031}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
   Value: 0
 --- !u!114 &-3149500813272203088
 MonoBehaviour:
@@ -195,6 +221,9 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: Value
+        node: {fileID: 0}
+        reroutePoints: []
+      - fieldName: Value
         node: {fileID: 2477605427636061047}
         reroutePoints: []
       _direction: 0
@@ -245,10 +274,11 @@ MonoBehaviour:
   m_Name: Current Ammo Count Node
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -712, y: -120}
+  position: {x: -712, y: -136}
   ports:
     keys:
     - Value
+    - Data
     values:
     - _fieldName: Value
       _node: {fileID: -2847192676517171213}
@@ -262,6 +292,18 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: -2847192676517171213}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
   Value: 0
 --- !u!114 &-2743653046011671476
 MonoBehaviour:
@@ -280,6 +322,7 @@ MonoBehaviour:
   ports:
     keys:
     - LinkedOption
+    - Data
     values:
     - _fieldName: LinkedOption
       _node: {fileID: -2743653046011671476}
@@ -293,8 +336,20 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: -2743653046011671476}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   LinkedOption: {fileID: 0}
   Order: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
 --- !u!114 &-1866921937441271112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,10 +393,10 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
-  Value: 0
   Data:
     DataTag: 
     Data: {fileID: 0}
+  Value: 0
 --- !u!114 &-1492904181709445352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +414,7 @@ MonoBehaviour:
   ports:
     keys:
     - Value
+    - Data
     values:
     - _fieldName: Value
       _node: {fileID: -1492904181709445352}
@@ -372,6 +428,18 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: -1492904181709445352}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
   Value: 0
 --- !u!114 &-1393080565401486127
 MonoBehaviour:
@@ -416,10 +484,10 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
-  Value: 0
   Data:
     DataTag: 
     Data: {fileID: 0}
+  Value: 0
 --- !u!114 &-1187499331445944224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,10 +501,11 @@ MonoBehaviour:
   m_Name: Has Target
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -664, y: -984}
+  position: {x: -664, y: -1064}
   ports:
     keys:
     - Value
+    - Data
     values:
     - _fieldName: Value
       _node: {fileID: -1187499331445944224}
@@ -450,6 +519,18 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: -1187499331445944224}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
   Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
@@ -506,6 +587,7 @@ MonoBehaviour:
   ports:
     keys:
     - Value
+    - Data
     values:
     - _fieldName: Value
       _node: {fileID: 178059516657548659}
@@ -519,6 +601,18 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: 178059516657548659}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
   Value: 0
 --- !u!114 &650509650732122840
 MonoBehaviour:
@@ -661,7 +755,7 @@ MonoBehaviour:
   m_Name: Rank Not
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -136, y: -1000}
+  position: {x: -136, y: -1048}
   ports:
     keys:
     - RankIn
@@ -706,7 +800,7 @@ MonoBehaviour:
   m_Name: Data Is Alive
   m_EditorClassIdentifier: Assembly-CSharp:Examples.CubeAI.Nodes:DataIsAlive
   graph: {fileID: 11400000}
-  position: {x: -664, y: -1096}
+  position: {x: -664, y: -1144}
   ports:
     keys:
     - Data
@@ -736,10 +830,10 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
-  Value: 0
   Data:
     DataTag: 
     Data: {fileID: 0}
+  Value: 0
 --- !u!114 &2804958587180154056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -945,6 +1039,7 @@ MonoBehaviour:
   ports:
     keys:
     - Value
+    - Data
     values:
     - _fieldName: Value
       _node: {fileID: 3306926615521682196}
@@ -958,6 +1053,18 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: 3306926615521682196}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
   Value: 0
 --- !u!114 &4504020337149638878
 MonoBehaviour:
@@ -1165,6 +1272,7 @@ MonoBehaviour:
     keys:
     - LinkedOption
     - DataOut
+    - Data
     values:
     - _fieldName: LinkedOption
       _node: {fileID: 7948388030205020400}
@@ -1192,13 +1300,22 @@ MonoBehaviour:
       - fieldName: Data
         node: {fileID: 650509650732122840}
         reroutePoints: []
-      - fieldName: Data
-        node: {fileID: 2477605427636061047}
-        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: 7948388030205020400}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
   LinkedOption: {fileID: 0}
   DataOut:
     DataTag: 
@@ -1300,6 +1417,7 @@ MonoBehaviour:
   ports:
     keys:
     - Value
+    - Data
     values:
     - _fieldName: Value
       _node: {fileID: 8625277588503570048}
@@ -1313,6 +1431,18 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: 8625277588503570048}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
   Value: 0
 --- !u!114 &8779490541509514164
 MonoBehaviour:
@@ -1331,6 +1461,7 @@ MonoBehaviour:
   ports:
     keys:
     - LinkedOption
+    - Data
     values:
     - _fieldName: LinkedOption
       _node: {fileID: 8779490541509514164}
@@ -1344,8 +1475,20 @@ MonoBehaviour:
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: Data
+      _node: {fileID: 8779490541509514164}
+      _typeQualifiedName: Plugins.xNodeUtilityAi.Framework.TaggedData, Assembly-CSharp-firstpass,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   LinkedOption: {fileID: 0}
   Order: 0
+  Data:
+    DataTag: 
+    Data: {fileID: 0}
 --- !u!114 &8886839197104446014
 MonoBehaviour:
   m_ObjectHideFlags: 0

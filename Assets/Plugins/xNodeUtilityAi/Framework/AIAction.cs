@@ -11,7 +11,7 @@ namespace Plugins.xNodeUtilityAi.Framework {
 
         public AIAction(ActionNode actionNode) {
             Action = actionNode.Execute;
-            if (actionNode is DataActionNode node) {
+            if (actionNode is SimpleActionNode node) {
                 // Remove empty data
                 node.GetData().RemoveAll(data => data == null);
                 node.GetData().ForEach(data => AiData.Add(data.DataTag, data.Data));

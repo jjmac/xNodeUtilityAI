@@ -3,7 +3,7 @@ using Plugins.xNodeUtilityAi.Framework;
 using UnityEngine;
 
 namespace Examples.CubeAI.Nodes {
-    public class DataCurrentHpCountNode : DataEntryNode {
+    public class DataCurrentHpCountNode : SimpleEntryNode {
 
         protected override int ValueProvider(AbstractAIComponent context) {
             return GetData<GameObject>().GetComponent<CubeEntity>().CurrentHp;
@@ -11,10 +11,4 @@ namespace Examples.CubeAI.Nodes {
         
     }
 
-    public class DataIsAlive : DataEntryNode {
-
-        protected override int ValueProvider(AbstractAIComponent context) {
-            return GetData<GameObject>().GetComponent<CubeEntity>().IsDead ? 0 : 1;
-        }
-    }
 }

@@ -2,26 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30df4a03-aa08-49a1-83a2-7e63f277cb3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataCurrentHpCountNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataCurrentHpCountNode.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataMaxHpCountNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataMaxHpCountNode.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/HasTarget.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/HasTarget.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/OtherCubesNode.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/OtherCubesNode.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/SetTarget.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/SetTarget.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GameManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataIsAlive.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataIsAlive.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.xNodeUtilityAI/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.xNodeUtilityAI/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.xNodeUtilityAI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.xNodeUtilityAI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/CubeAI.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/CubeAI.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/CubeEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/CubeEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/CurrentAmmoCountNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/CurrentAmmoCountNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/FireNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/FireNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/Prefabs/Cube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Prefabs/Cube.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/UtilityAIBrain.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/UtilityAIBrain.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataCurrentHpCountNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataCurrentHpCountNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataMaxHpCountNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataMaxHpCountNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/SetTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/SetTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/CollectionEntryNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/CollectionEntryNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/CollectionEntryNode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/CollectionEntryNode.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/DataActionNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/DataActionNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/DataEntryNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/DataEntryNode.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/SimpleActionNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/SimpleActionNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/SimpleActionNode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/SimpleActionNode.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/SimpleEntryNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/SimpleEntryNode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/SimpleEntryNode.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/SimpleEntryNode.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/Framework/AIAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/Framework/AIAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/MemoryNodes/MemoryCheckNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/MemoryNodes/MemoryCheckNode.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/CurrentHpCountNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/SetTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/MaxAmmoCountNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/MemoryNodes/MemoryCheckNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/CurrentAmmoCountNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/ReloadNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/FireNode.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,10 +44,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/CubeEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/HasTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/xNode/Scripts/NodeGraph.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/Framework/AIAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataMaxHpCountNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/xNode/Scripts/Node.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/Editor/AiDebuggerEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/CubeAIComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataIsAlive.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/AbstractNodes/CollectionEntryNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/xNode/Scripts/Editor/NodeEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataCurrentHpCountNode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/HealNode.cs" root0="FORCE_HIGHLIGHTING" />
@@ -57,9 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Examples/BlindedPathfinding/CapsuleAIBrain.cs" />
-        <option value="$PROJECT_DIR$/Assets/Examples/BlindedPathfinding/CapsuleAIComponent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Examples/BlindedPathfinding/Nodes/WaypointCollectionEntryNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Examples/BlindedPathfinding/Nodes/SelectWayPointEntryNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Examples/BlindedPathfinding/Nodes/WaypointCollectionNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Examples/BlindedPathfinding/Nodes/WaypointRangeFromDestinationNode.cs" />
@@ -104,10 +103,13 @@
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/CurrentAmmoCountNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/OtherCubesNode.cs" />
-        <option value="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/SetTarget.cs" />
         <option value="$PROJECT_DIR$/Assets/Examples/CubeAI/CubeEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/HasTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/MemoryNodes/MemoryCheckNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataMaxHpCountNode.cs" />
         <option value="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/DataCurrentHpCountNode.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/xNodeUtilityAi/Framework/AIAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Examples/CubeAI/Nodes/SetTarget.cs" />
       </list>
     </option>
   </component>
@@ -182,6 +184,7 @@
       <workItem from="1571314961403" duration="736000" />
       <workItem from="1571342792747" duration="2220000" />
       <workItem from="1571345029319" duration="784000" />
+      <workItem from="1575287897097" duration="241000" />
     </task>
     <servers />
   </component>
